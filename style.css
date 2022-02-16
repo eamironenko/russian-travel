@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6, p, li {
 
   .page {
     max-width: 1280px;
-    margin: auto;
+    margin: 0 auto;
     font-family: 'Inter';
     background-color: grey;
     color: #FFFFFF;
@@ -22,19 +22,26 @@ h1, h2, h3, h4, h5, h6, p, li {
   }
 
   .header {
+      max-width: 1184px;
+      height: 52px;
+      margin: auto;
+      padding: 28px 0 56px;
       display: flex;
       position: relative;
-      align-items: center;      
-      max-height: 440px;
-      max-width: 1280px;
+      align-items: center;
       border: 1px solid blue;
   }
 
-  .logo {
-
+  .header__logo {
+    width: 176px;
+    height: 52px;
+    position: absolute;
+    top: 28px;
+    left: 48px;
+    border: 1px solid red;
   }
 
-  .header__title {
+  /*.header__title {
       max-height: 200px;
       max-width: 720px;
       margin: 136px auto 0;
@@ -46,7 +53,7 @@ h1, h2, h3, h4, h5, h6, p, li {
       border: 1px solid green;
   }
   
-  .header_subtitle {
+  /*.header_subtitle {
       max-width: 640px;
       max-height: 72px;
       margin: 32px auto 0;
