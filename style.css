@@ -1,70 +1,304 @@
 
-h1, h2, h3, h4, h5, h6, p, li {
-    margin: 0;
-  }
-
   body {
     background-color: #E5E5E5;
+    color: #FFFFFF;
   } 
 
   .page {
     max-width: 1280px;
     margin: 0 auto;
     font-family: 'Inter';
-    background-color: grey;
-    color: #FFFFFF;
-    /*-moz-osx-font-smoothing: grayscale;
+    background-color: rgba(71, 67, 67, 0.534);    
+    -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%; 
-    text-rendering: optimizeLegibility;*/
+    text-rendering: optimizeLegibility;
   }
-
   .header {
-      max-width: 1184px;
-      height: 52px;
-      margin: auto;
-      padding: 28px 0 56px;
-      display: flex;
-      position: relative;
-      align-items: center;
-      border: 1px solid blue;
+    width: 100%;
+    height: 136px;
+    border: 1px solid blue;
   }
 
-  .header__logo {
+  .header__container {
+    /*max-width: 1184px;*/
+    width: 92.5%;
+    height: 52px;
+    padding: 28px 0 56px;
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    align-items: center;
+    border: 1px solid greenyellow;
+  }
+
+   .header__logo {
     width: 176px;
     height: 52px;
     position: absolute;
     top: 28px;
-    left: 48px;
     border: 1px solid red;
   }
 
-  /*.header__title {
-      max-height: 200px;
-      max-width: 720px;
-      margin: 136px auto 0;
-      font-style: normal;
-      font-size: 96px;
-      text-align: center;
-      font-weight: bold;
-      /*color: #FFFFFF;*/
-      border: 1px solid green;
+   .header__lang-link {
+    font-size: 1.5rem;
+    line-height: 1.167;
+    font-style: normal;
+    text-align: right;
+  }
+
+   .header__lang-link_ru {
+    position: absolute;
+    width: 30px;
+    height: 28px;
+    top: 18px;
+    right: 47px;
+    bottom: 6px;
+    text-decoration: underline;
+    border: 1px solid blue;
+   }
+
+   .header__lang-link_en {
+    position: absolute;
+    width: 29px;
+    height: 28px;
+    top: 18px;
+    right: 0;
+    bottom: 6px;
+   }
+
+   .lead {
+    box-sizing: border-box;
+    position: relative;
+    height: 1005px;
+    max-width: 984px;
+    width: 76.875%;
+    margin: 0 auto;
+    border: 1px solid pink;
+   }
+
+  .lead__title {
+    height: 200px;
+    width: 73.2%;
+    /*max-width: 720px;*/    
+    margin: 0 auto;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 6rem;
+    line-height: 1.04;
+    text-align: center;
+    /*border: 1px solid green;*/
   }
   
-  /*.header_subtitle {
-      max-width: 640px;
-      max-height: 72px;
-      margin: 32px auto 0;
-      position: relative;
-      font-style: normal;
-      font-weight: normal;
-      font-size: 30px;
-      line-height: 36px;
-      text-align: center;
-     /*color: #FFFFFF;*/
-     border: 1px solid yellow;
+  .lead__subtitle {
+    max-width: 640px;
+    width: 65%;
+    /*height: 72px;*/
+    margin: 32px auto 0;
+    position: relative;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    text-align: center;    
+    /*border: 1px solid yellow;*/
+  }
+  
+  .lead__image {
+    max-width: 984px;
+    /*max-height: 615px;*/
+    width: 100%;
+    margin: 64px auto 0;
+  }
 
+  .lead__caption {
+    height: 14px;
+    width: 984px;
+    margin: 8px auto 0;
+    text-align: left;
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase; 
+  }
 
+  @media screen and (min-width: 1024px) and (max-width: 1279.98px) {
+    
+   .lead {     
+    width: 90.625%;
+    height: 962px;
+    /*max-width: 984px;*/
+    }
+    .lead__subtitle {
+      width: 69%;
+    }
+
+    .lead__image {
+        /*max-width: 928px;*/
+        /*max-height: 615px;*/
+        width: 100%;
+        padding-bottom: 100%;
+        margin: 64px auto 0;
+      }
+    
+  }
+
+  @media screen  and (min-width: 768px) and (max-width: 1023.98px) {
+        
+    .header {
+      height: 128px;
+      }
+
+    .header__container {
+      width: 90.6%;
+      padding: 28px 0 48px;
+      }
+
+    .lead {
+      width: 100%;
+      height: 862px;
+      /*max-width: 984px;*/        
+      }
+
+    .lead__title {
+      width: 93.75%;
+      /*height: 21.7%;*/
+      font-size: 6rem;
+      line-height: 1.04;
+      }
+
+    .lead__subtitle {
+      width: 83.3%;
+    }
+
+    .lead__image {
+        height: calc(100%-382px);
+        margin: 56px auto 0;
+      }
+  }
+  
+  @media screen and (min-width: 425px) and (max-width: 767.98px) {
+    
+    .header {
+      height: 106px;
+      }
+
+    .header__container {
+      width: 90%;
+      height: 42px;
+      padding: 16px 0 48px;
+      }
+    
+    .header__logo {
+      width: 142px;
+      height: 42px;
+      top: 16px;
+      }
+    
+    .header__lang-link {
+      font-size: 1.125rem;
+      line-height: 1.1;
+      }  
+    .header__lang-link_ru {
+      width: 20px;
+      height: 22px;
+      top: 14px;
+      right: 40px;
+      bottom: 8px;        
+      }
+      
+    .header__lang-link_en {
+      width: 20px;
+      height: 22px;
+      top: 14px;
+      bottom: 8px;
+      }
+
+    .lead {     
+      height: 406px;
+      /*max-width: 984px;*/
+      width: 100%;
+      }
+    
+    .lead__title {
+      height: 21.7%;
+      width: 90%;
+      font-size: 2.5rem;
+      line-height: 1.1;      
+      }
+
+    .lead__subtitle {
+      width: 90%;
+      font-size: 1.rem;
+      line-height: 1.25;
+      }
+
+    .lead__image {
+      height: calc(100%-382px);
+      margin: 40px auto 0;
+      }
+  }
+   
+  @media screen and (min-width: 320px) and (max-width: 424.98px) {
+    
+    .header {
+      height: 106px;
+      }
+    
+    .header__container {
+      width: 90%;
+      height: 42px;
+      padding: 16px 0 48px;
+      }
+
+    .header__logo {
+      width: 142px;
+      height: 42px;
+      top: 16px;
+      }
+    
+    .header__lang-link {
+      font-size: 1.125rem;
+      line-height: 1.1;
+    }
+
+    .header__lang-link_ru {
+      width: 20px;
+      height: 22px;
+      top: 14px;
+      right: 40px;
+      bottom: 8px;        
+       }
+    
+    .header__lang-link_en {
+      width: 20px;
+      height: 22px;
+      top: 14px;
+      bottom: 8px;
+      }    
+
+    .lead {     
+      height: 406px;
+      /*max-width: 984px;*/
+      width: 100%;
+      }
+
+    .lead__title {
+      height: 21.7%;
+      width: 90%;
+      font-size: 2.5rem;
+      line-height: 1.1;
+      }
+
+    .lead__subtitle {
+      width: 90%;
+      font-size: 1rem;
+      line-height: 1.25;
+      }
+    .lead__image {
+      height: calc(100%-206px);
+      margin: 40px auto 0;
+      }
   }
