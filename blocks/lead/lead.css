@@ -1,0 +1,44 @@
+
+ .lead {
+    box-sizing: border-box;
+    position: relative;
+    height: 1005px;
+    max-width: 984px;
+    width: 76.875%;
+    margin: 0 auto;
+    /*border: 1px solid pink;*/
+   }
+
+@media screen and (min-width: 1024px) and (max-width: 1279.98px) {
+    .lead {     
+      width: 90.625%;
+      height: 962px;
+      /*max-width: 984px;*/
+      }
+}
+
+@media screen  and (min-width: 768px) and (max-width: 1023.98px) {   
+    .lead {
+      width: 100%;
+      height: 862px;
+      /*max-width: 984px;*/        
+      }
+}
+
+@media screen and (min-width: 425px) and (max-width: 767.98px) {  
+    .lead {     
+      height: 406px;
+      /*max-width: 984px;*/
+      width: 100%;
+      }
+ 
+}
+
+@media screen and (min-width: 320px) and (max-width: 424.98px) {
+    .lead {     
+      height: 406px;
+      /*max-width: 984px;*/
+      width: 100%;
+      }        
+  
+}

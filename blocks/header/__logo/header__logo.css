@@ -1,0 +1,33 @@
+
+ .header__logo {
+    width: 176px;
+    height: 52px;
+    position: absolute;
+    top: 28px;
+    /*border: 1px solid red;*/
+  }
+
+
+   @media screen and (min-width: 1024px) and (max-width: 1279.98px) {        
+   }
+ 
+   @media screen  and (min-width: 768px) and (max-width: 1023.98px) {     
+   }
+   
+   @media screen and (min-width: 425px) and (max-width: 767.98px) {    
+         
+     .header__logo {
+       width: 142px;
+       height: 42px;
+       top: 16px;
+       }        
+   }
+    
+   @media screen and (min-width: 320px) and (max-width: 424.98px) {
+       
+     .header__logo {
+       width: 142px;
+       height: 42px;
+       top: 16px;
+       }       
+   }

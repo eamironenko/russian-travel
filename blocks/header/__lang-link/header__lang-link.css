@@ -1,0 +1,31 @@
+
+.header__lang-link {
+    font-size: 1.5rem;
+    line-height: 1.167;
+    font-style: normal;
+    text-align: right;
+  }
+
+   @media screen and (min-width: 1024px) and (max-width: 1279.98px) {  
+   }
+
+  @media screen  and (min-width: 768px) and (max-width: 1023.98px) {   
+  }
+  
+  @media screen and (min-width: 425px) and (max-width: 767.98px) {  
+    
+    .header__lang-link {
+      font-size: 1.125rem;
+      line-height: 1.1;
+      }  
+      
+  }
+   
+  @media screen and (min-width: 320px) and (max-width: 424.98px) {  
+    
+    .header__lang-link {
+      font-size: 1.125rem;
+      line-height: 1.1;
+    }
+  }
+    
