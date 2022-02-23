@@ -1,0 +1,26 @@
+
+.footer__copyright {
+    margin: 0;
+    text-align: right;
+    /*border: 1px solid green;*/
+  }
+
+@media screen and (max-width: 1279px) {   
+   
+}
+
+@media screen  and (max-width: 1023px) {     
+    
+}
+
+@media screen and (max-width: 767px) {
+    .footer__copyright_text {              
+        line-height: 1;
+      }         
+}
+ 
+@media screen and (min-width: 320px) and (max-width: 424px) {     
+    .footer__copyright_text {              
+        line-height: 1;
+      }
+}

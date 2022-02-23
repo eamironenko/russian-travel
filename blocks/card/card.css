@@ -1,0 +1,71 @@
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 245px 312px;
+  box-sizing: border-box;
+  max-width: 100%;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  text-decoration: none;
+  text-align: center;
+/* border: 1px solid greenyellow;*/
+  }
+
+.card:link {
+  color: #FFFFFF;
+  }
+.card:hover {
+  color:#00f;
+  }
+.card:visited {
+  color: #FFFFFF;
+  }
+
+.card:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  z-index: -1;
+  transition: opasity 200ms ease-in-out;
+  }
+  .card:hover::before {    
+    opacity: 0.8;
+    transition: opasity 200ms ease-in-out;
+  }
+
+
+@media screen and (max-width: 1279px) {   
+  .card {
+    padding: 195px 232px;
+    }
+}
+
+@media screen  and (max-width: 1023px) {     
+  .card {
+    padding: 115px 104px;
+    } 
+}
+
+@media screen and (max-width: 767px) {
+  .card {
+    padding: 33px 16px;
+    }
+}
+ 
+@media screen and (min-width: 320px) and (max-width: 424px) {     
+  .card {
+    padding: 33px 16px;
+    }
+}
+
