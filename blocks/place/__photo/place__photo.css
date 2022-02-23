@@ -1,0 +1,27 @@
+
+.place__photo {
+    grid-area: photo;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+@media screen and (max-width: 1279px) {   
+   
+}
+
+@media screen  and (max-width: 1023px) {  
+  .place__photo {
+    max-height: 340px;
+    }    
+}
+
+@media screen and (max-width: 767px) {
+         
+}
+ 
+@media screen and (min-width: 320px) and (max-width: 424px) { 
+}

@@ -1,7 +1,5 @@
 
- .photo-grid {
-    box-sizing: border-box;
-    width: 100%;
+ .photo-grid {    
     margin: 0;
     padding: 92px 48px;
     /*border: 1px solid green; */   
