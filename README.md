@@ -39,4 +39,4 @@ Git Bush (https://git-scm.com/downloads)
 Браузер: Chrome, Opera, Firefox и др.
 
 # GitHub link
-https://eamironenko.github.io/russian-travel/
+https://eamironenko.github.io/russian-travel/index.html
