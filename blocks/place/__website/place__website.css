@@ -1,5 +1,5 @@
 
-.place__links_item_site {    
+.place__website {    
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -9,12 +9,12 @@
   color: #FFFFFF;
   }
 
-.place__links_site:link {
+.place__website:link {
   color: #FFFFFF;
   }
-.place__links_site:hover {
+.place__website:hover {
   color: #00f;
   }
-.place__links_site:visited {
+.place__website:visited {
   color: #FFFFFF;
   }
