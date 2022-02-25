@@ -1,7 +1,8 @@
 
  .lead {    
     padding: 0 148px;
-    text-align: center;
+    margin: 0;
+    text-align: center; 
     /*border: 1px solid pink;*/
    }
 

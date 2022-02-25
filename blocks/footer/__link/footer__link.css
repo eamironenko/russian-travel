@@ -1,5 +1,5 @@
 
- .footer__links_item {    
+ .footer__link {    
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -9,13 +9,13 @@
     /*border: 1pz solid green;*/
   }
 
-  .footer__links_item:link {
+  .footer__link:link {
     color: #FFFFFF;
   }
-  .footer__links_item:hover {
+  .footer__link:hover {
     color: #00f;
   }
-  .footer__links_item:visited {
+  .footer__link:visited {
     color: #FFFFFF;
   }
 
@@ -29,7 +29,7 @@
 }
 
 @media screen and (max-width: 767px) {
-    .footer__links_item {
+    .footer__link {
         font-size: 24px;
         line-height: 1;
         margin-bottom:32px;
@@ -37,7 +37,7 @@
 }
  
 @media screen and (min-width: 320px) and (max-width: 424px) {     
-    .footer__links_item {
+    .footer__link {
         font-size: 24px;
         line-height: 1;
         margin-bottom:32px;
