@@ -1,6 +1,6 @@
 
  .footer__container {
-    margin: 0;
+    margin: 92px auto 24px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -16,7 +16,9 @@
 }
 
 @media screen  and (max-width: 1023px) {     
-    
+  .footer__container {
+    margin: 88px auto 24px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -24,6 +26,8 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: flex-start;
+        margin: 64px auto 24px;
+        width: calc(100% - 16px * 2);
       }
 }
  
@@ -31,6 +35,6 @@
     .footer__container {
         flex-direction: column;
         justify-content: space-between;
-        align-items: flex-start;
+        align-items: flex-start;        
       }
 }
