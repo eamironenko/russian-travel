@@ -1,4 +1,3 @@
-
 .card {
   display: flex;
   flex-direction: column;
@@ -11,18 +10,13 @@
   overflow: hidden;
   text-decoration: none;
   text-align: center;
-/* border: 1px solid greenyellow;*/
-  }
+  /* border: 1px solid greenyellow;*/
+}
 
-.card:link {
-  color: #FFFFFF;
-  }
 .card:hover {
-  color:#00f;
-  }
-.card:visited {
   color: #FFFFFF;
-  }
+  opacity: 0.8;
+}
 
 .card:before {
   content: '';
@@ -38,34 +32,33 @@
   opacity: 0.3;
   z-index: -1;
   transition: opasity 200ms ease-in-out;
-  }
-  .card:hover::before {    
-    opacity: 0.8;
-    transition: opasity 200ms ease-in-out;
-  }
-
-
-@media screen and (max-width: 1279px) {   
-  .card {
-    padding: 195px 232px;
-    }
 }
 
-@media screen  and (max-width: 1023px) {     
+.card:hover::before {
+  opacity: 0.8;
+  transition: opasity 200ms ease-in-out;
+}
+
+@media screen and (max-width: 1279px) {
   .card {
-    padding: 115px 104px;
-    } 
+      padding: 195px 232px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .card {
+      padding: 115px 104px;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .card {
-    padding: 33px 16px;
-    }
-}
- 
-@media screen and (min-width: 320px) and (max-width: 424px) {     
-  .card {
-    padding: 33px 16px;
-    }
+      padding: 33px 16px;
+  }
 }
 
+@media screen and (min-width: 320px) and (max-width: 424px) {
+  .card {
+      padding: 33px 16px;
+  }
+}
