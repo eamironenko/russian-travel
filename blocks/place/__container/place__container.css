@@ -1,61 +1,60 @@
-
 .place__container {
-    display: grid;
-    padding: 0 148px 80px;
-    grid-template-columns: 460px 1fr;
-    grid-template-rows: minmax(min-content 152px) min-content;
-    gap: 48px 40px;
-    grid-template-areas: 
-    "title links"
-    "photo paragraph";
-    /*border: 1px solid green;*/
-  }
-
-
-@media screen and (max-width: 1279px) {   
-  .place__container {
-    padding: 0 48px 80px;
-    grid-template-columns: 440px 1fr;
-    grid-template-rows: minmax(min-content 152px) min-content;
-    gap: 48px 32px;
-    }
+  display: grid;
+  padding: 0 148px 80px;
+  grid-template-columns: 460px 1fr;
+  grid-template-rows: minmax(min-content 152px) min-content;
+  gap: 48px 40px;
+  grid-template-areas:
+      "title links"
+      "photo paragraph";
+  /*border: 1px solid green;*/
 }
 
-@media screen  and (max-width: 1023px) {     
+
+@media screen and (max-width: 1279px) {
   .place__container {
-    padding: 0 24px 73px;
-    grid-template-columns: 340px 1fr;
-    grid-template-rows: minmax(46px 92px) 1fr;
-    gap: 48px 28px;
-    }
-    
+      padding: 0 48px 80px;
+      grid-template-columns: 440px 1fr;
+      grid-template-rows: minmax(min-content 152px) min-content;
+      gap: 48px 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place__container {
+      padding: 0 24px 73px;
+      grid-template-columns: 340px 1fr;
+      grid-template-rows: minmax(46px 92px) 1fr;
+      gap: 48px 28px;
+  }
+
 }
 
 @media screen and (max-width: 767px) {
   .place__container {
-    padding: 0 0 50px;
-    grid-template-columns: 1fr;
-    grid-template-rows: fit-content(35px) fit-content(46px) fit-content(320px) 1fr;
-    gap: 32px;
-    grid-template-areas: 
-    "title"
-    "links"
-    "photo" 
-    "paragraph";
-    }
-         
+      padding: 0 0 50px;
+      grid-template-columns: 1fr;
+      grid-template-rows: fit-content(35px) fit-content(46px) fit-content(320px) 1fr;
+      gap: 32px;
+      grid-template-areas:
+          "title"
+          "links"
+          "photo"
+          "paragraph";
+  }
+
 }
- 
-@media screen and (min-width: 320px) and (max-width: 424px) { 
+
+@media screen and (min-width: 320px) and (max-width: 424px) {
   .place__container {
-    padding: 0 0 50px;
-    grid-template-columns: 1fr;
-    grid-template-rows: fit-content(35px) fit-content(46px) fit-content(320px) 1fr;
-    gap: 32px;
-    grid-template-areas: 
-    "title"
-    "links"
-    "photo" 
-    "paragraph";
-    }  
+      padding: 0 0 50px;
+      grid-template-columns: 1fr;
+      grid-template-rows: fit-content(35px) fit-content(46px) fit-content(320px) 1fr;
+      gap: 32px;
+      grid-template-areas:
+          "title"
+          "links"
+          "photo"
+          "paragraph";
+  }
 }
