@@ -32,10 +32,15 @@
   .photo-grid {
       gap: 12px;
       grid-template-columns: repeat(1, 1fr);
-      grid-template-rows: repeat(12, 1fr);
-      max-width: 288px;
+      grid-template-rows: repeat(12, 1fr);      
       margin: 64px auto;
+      width: 90%;
+
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 424px) {}
+@media screen and (min-width: 320px) and (max-width: 424px) {
+  .photo-grid {
+      max-width: 288px;
+  }
+}

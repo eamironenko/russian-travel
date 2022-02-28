@@ -14,6 +14,9 @@
   .place__title {
       font-size: 42px;
       line-height: 1.1;
+      /*На макете при разрешении 768px заголовок Куршская коса занимает одну строку вместо двух
+      как на макете. Размер блока заголовка 720px как на макете. Как соблюсти макет без применения 
+      <br> в коде, может ошибка макета? */
   }
 }
 
@@ -25,10 +28,4 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 424px) {
-  .place__title {
-      padding: 0 16px;
-      font-size: 32px;
-      line-height: 1.09;
-  }
-}
+@media screen and (min-width: 320px) and (max-width: 424px) {}
