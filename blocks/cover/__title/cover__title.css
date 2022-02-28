@@ -1,9 +1,10 @@
-.card__title {
+.cover__title {
   margin: 0;
   font-weight: 900;
   font-style: normal;
   font-size: 72px;
   line-height: 1.06;
+  color: #FFFFFF;
 }
 
 @media screen and (max-width: 1279px) {}
@@ -11,7 +12,7 @@
 @media screen and (max-width: 1023px) {}
 
 @media screen and (max-width: 767px) {
-  .card__title {
+  .cover__title {
       font-size: 32px;
       line-height: 1.09;
   }

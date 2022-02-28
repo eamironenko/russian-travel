@@ -1,7 +1,8 @@
-.card {
+.cover__link {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;  
   padding: 245px 312px;
   box-sizing: border-box;
   max-width: 100%;
@@ -10,15 +11,15 @@
   overflow: hidden;
   text-decoration: none;
   text-align: center;
-  /* border: 1px solid greenyellow;*/
+  border: 1px solid pink;
 }
 
-.card:hover {
+.cover__link:hover {
   color: #FFFFFF;
   opacity: 0.8;
 }
 
-.card:before {
+.cover__link:before {
   content: '';
   display: block;
   position: absolute;
@@ -34,25 +35,25 @@
   transition: opasity 200ms ease-in-out;
 }
 
-.card:hover::before {
+.cover__link:hover::before {
   opacity: 0.8;
   transition: opasity 200ms ease-in-out;
 }
 
 @media screen and (max-width: 1279px) {
-  .card {
+  .cover__link {
       padding: 195px 232px;
   }
 }
 
 @media screen and (max-width: 1023px) {
-  .card {
+  .cover__link {
       padding: 115px 104px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .card {
+  .cover__link {
       padding: 33px 16px;
   }
 }
