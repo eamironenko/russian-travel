@@ -1,32 +1,23 @@
-
 .cover {
-    max-width: (100% - 48px *2);    
-    margin: 12 auto 0;
-    box-sizing: border-box;
-    border: 1px solid yellow;
-  }
-
- 
-@media screen and (max-width: 1279px) {   
-    .cover {
-        
-      }
+  max-width: 1184px;
+  width: 100%;
+  margin: 12px auto 0;
+  box-sizing: border-box;
+  border: 1px solid yellow;
 }
 
-@media screen  and (max-width: 1023px) {     
-    .cover {
-        
-      }
+@media screen and (max-width: 1279px) {
+  .cover {}
+}
+
+@media screen and (max-width: 1023px) {
+  .cover {}
 }
 
 @media screen and (max-width: 767px) {
-    .cover {
-        
-      }      
+  .cover {}
 }
- 
-@media screen and (min-width: 320px) and (max-width: 424px) {     
-    .cover {
-       
-      }
+
+@media screen and (min-width: 320px) and (max-width: 424px) {
+  .cover {}
 }

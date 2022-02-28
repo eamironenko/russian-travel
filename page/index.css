@@ -38,10 +38,11 @@
 @import url(../blocks/place/__paragraph/place__paragraph.css);
 @import url(../blocks/place/_content/place__content.css);
 
-@import url(../blocks/card/card.css);
-@import url(../blocks/card/__title/card__title.css);
-@import url(../blocks/card/__image/card__image.css);
-@import url(../blocks/card/__description/card__description.css);
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__image/cover__image.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__description/cover__description.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__container/footer__container.css);
