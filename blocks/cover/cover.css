@@ -1,9 +1,9 @@
 .cover {
   max-width: 1184px;
   width: 100%;
-  margin: 12px auto 0;
+  margin: 0 auto;
   box-sizing: border-box;
-  /*border: 1px solid yellow;*/
+  border: 1px solid yellow;
 }
 
 @media screen and (max-width: 1279px) {

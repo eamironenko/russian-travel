@@ -9,7 +9,11 @@
   grid-template-areas:
       "title links"
       "photo paragraph";
-  border: 1px solid green;
+  /*border: 1px solid green;*/
+}
+
+.place__container:last-of-type {
+  margin: 0 auto 92px;
 }
 
 
@@ -29,6 +33,10 @@
       gap: 48px 28px;
       max-width: 720px;
   }
+
+  .place__container:last-of-type {
+      margin: 0 auto 90px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -43,10 +51,16 @@
           "paragraph";
       width: 90%;
   }
+
+  .place__container:last-of-type {
+      margin: 0 auto 66px;
+  }
 }
 
 @media screen and (min-width: 320px) and (max-width: 424px) {
   .place__container {
       max-width: 288px;
+      margin: 0 auto 50px;
   }
+
 }
