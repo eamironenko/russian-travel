@@ -1,4 +1,5 @@
 .place__photo {
+  margin: 0;
   grid-area: photo;
   position: relative;
   top: 0;
