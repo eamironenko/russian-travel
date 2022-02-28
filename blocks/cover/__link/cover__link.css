@@ -13,7 +13,7 @@
   overflow: hidden;
   text-decoration: none;
   text-align: center;
-  border: 1px solid pink;
+  /*border: 1px solid pink;*/
 }
 
 .cover__link:hover {
