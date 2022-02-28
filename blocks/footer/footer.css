@@ -8,7 +8,7 @@
   max-width: 1184px;
   width: calc(100% - 24px * 2);
   height: 100%;
-  border: 1px solid pink;
+  /*border: 1px solid pink;*/
 }
 
 @media screen and (max-width: 1279px) {}
