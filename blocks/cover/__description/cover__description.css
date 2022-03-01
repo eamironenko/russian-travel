@@ -14,10 +14,10 @@
 
 @media screen and (max-width: 767px) {
   .cover__description {
-      max-width: 288px;
-      margin: 16px auto 0;
-      font-size: 14px;
-      line-height: 1.14;
+    max-width: 288px;
+    margin: 16px auto 0;
+    font-size: 14px;
+    line-height: 1.14;
   }
 }
 

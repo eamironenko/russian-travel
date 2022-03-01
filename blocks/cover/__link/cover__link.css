@@ -42,7 +42,7 @@
 
 @media screen and (max-width: 1279px) {
   .cover__link {
-      height: calc(100vw * 0.625);
+    height: calc(100vw * 0.625);
   }
 }
 
