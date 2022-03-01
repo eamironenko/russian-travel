@@ -1,9 +1,6 @@
 .place__photo {
   margin: 0;
   grid-area: photo;
-  position: relative;
-  top: 0;
-  left: 0;
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -13,7 +10,7 @@
 
 @media screen and (max-width: 1023px) {
   .place__photo {
-      max-height: 340px;
+    max-height: 340px;
   }
 }
 

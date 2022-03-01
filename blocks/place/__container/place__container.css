@@ -7,8 +7,8 @@
   grid-template-rows: min-content min-content;
   gap: 48px 40px;
   grid-template-areas:
-      "title links"
-      "photo paragraph";
+    "title links"
+    "photo paragraph";
   /*border: 1px solid green;*/
 }
 
@@ -16,50 +16,49 @@
   margin: 0 auto 92px;
 }
 
-
 @media screen and (max-width: 1279px) {
   .place__container {
-      grid-template-columns: 440px 1fr;
-      grid-template-rows: min-content min-content;
-      gap: 48px 32px;
-      max-width: 928px;
+    grid-template-columns: 440px 1fr;
+    grid-template-rows: min-content min-content;
+    gap: 48px 32px;
+    max-width: 928px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .place__container {
-      grid-template-columns: 340px 1fr;
-      grid-template-rows: min-content 1fr;
-      gap: 48px 28px;
-      max-width: 720px;
+    grid-template-columns: 340px 1fr;
+    grid-template-rows: min-content 1fr;
+    gap: 48px 28px;
+    max-width: 720px;
   }
 
   .place__container:last-of-type {
-      margin: 0 auto 90px;
+    margin: 0 auto 90px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place__container {
-      grid-template-columns: 1fr;
-      grid-template-rows: fit-content(35px) fit-content(46px) fit-content(320px) 1fr;
-      gap: 32px;
-      grid-template-areas:
-          "title"
-          "links"
-          "photo"
-          "paragraph";
-      width: 100%;
-      margin: 0 0 50px;
+    grid-template-columns: 1fr;
+    grid-template-rows: fit-content(35px) fit-content(46px) fit-content(320px) 1fr;
+    gap: 32px;
+    grid-template-areas:
+      "title"
+      "links"
+      "photo"
+      "paragraph";
+    width: 100%;
+    margin: 0 0 50px;
   }
 
   .place__container:last-of-type {
-      margin: 0 auto 66px;
+    margin: 0 auto 66px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 424px) {
   .place__container {
-      margin: 0 0 50px;
+    margin: 0 0 50px;
   }
 }
