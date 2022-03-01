@@ -1,10 +1,16 @@
 .header__lang-link {
-  width: 77px;
-  height: 28px;
-  margin: 18px 0 6px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+    font-size: 24px;
+    line-height: 1.17;
+    font-style: normal;
+    margin: 0;
+}
+
+.header__lang-link:active {
+    text-decoration: underline;
+}
+
+.header__lang-link:hover {
+    opacity: 0.8;
 }
 
 @media screen and (max-width: 1279px) {}
@@ -13,10 +19,10 @@
 
 @media screen and (max-width: 767px) {
 
-  .header__lang-link {
-      width: 62px;
-      height: 20px;
-  }
+    .header__lang-link {
+        font-size: 1.125rem;
+        line-height: 1.1;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 424px) {}
