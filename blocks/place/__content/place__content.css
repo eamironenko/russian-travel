@@ -9,7 +9,7 @@
 }
 
 .place__content:last-child {
-  margin-top: 0;
+  margin: 0;
 }
 
 @media screen and (max-width: 1279px) {
