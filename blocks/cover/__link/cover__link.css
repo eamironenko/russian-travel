@@ -14,8 +14,7 @@
   text-align: center;
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
-
-  /*border: 1px solid pink;*/  
+  /*border: 1px solid pink;*/
 }
 
 .cover__link:hover {
@@ -35,7 +34,7 @@
   background-color: #2A2C2F;
   opacity: 0.3;
   z-index: -1;
-  transition: opasity 200ms ease-in-out;  
+  transition: opasity 200ms ease-in-out;
 }
 
 .cover__link:hover::before {
@@ -48,9 +47,3 @@
     height: calc(100vw * 0.625);
   }
 }
-
-@media screen and (max-width: 1023px) {}
-
-@media screen and (max-width: 767px) {}
-
-@media screen and (min-width: 320px) and (max-width: 424px) {}

@@ -8,10 +8,6 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 1279px) {}
-
-@media screen and (max-width: 1023px) {}
-
 @media screen and (max-width: 767px) {
   .cover__description {
     max-width: 288px;
@@ -20,5 +16,3 @@
     line-height: 1.14;
   }
 }
-
-@media screen and (min-width: 320px) and (max-width: 424px) {}

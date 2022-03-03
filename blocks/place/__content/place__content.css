@@ -15,23 +15,22 @@
 @media screen and (max-width: 1279px) {
   .place__content {
     margin: 0 0 27px;
-  }  
+  }
 }
 
 @media screen and (max-width: 1023px) {
   .place__content {
     font-size: 16px;
     margin: 0 0 25px;
-  } 
+  }
 }
 
 @media screen and (max-width: 767px) {
   .place__content {
     margin: 0 16px 25px;
   }
+
   .place__content:last-child {
     margin: 0 16px 0;
   }
 }
-
-@media screen and (min-width: 320px) and (max-width: 424px) {}
