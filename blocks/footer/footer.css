@@ -4,7 +4,7 @@
   justify-content: space-between;
   align-items: center;
   max-width: 1184px;
-  width: calc(100% - 24px * 2);
+  width: calc(100% - 48px * 2);
   height: 100%;
   /*border: 1px solid pink;*/
 }
@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 1023px) {
   .footer {
-    margin: 88px auto 24px;  
+    margin: 88px auto 24px; 
   }
 }
 
