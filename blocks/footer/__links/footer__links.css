@@ -9,11 +9,10 @@
 
 @media screen and (max-width: 767px) {
   .footer__links {
-    display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: left;
-    height: 248px;
+    max-height: 248px;
     margin: 0 0 48px;
   }
 }

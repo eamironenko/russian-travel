@@ -1,11 +1,11 @@
-.place__links {
+.place__link {
   grid-area: links;
   align-self: end;
   margin: 0;
 }
 
 @media screen and (max-width: 767px) {
-  .place__links {
+  .place__link {
     margin: 0 16px;
   }
 }
