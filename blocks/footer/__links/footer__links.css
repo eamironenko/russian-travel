@@ -12,7 +12,6 @@
     flex-direction: column;
     justify-content: space-between;
     text-align: left;
-    max-height: 248px;
-    margin: 0 0 48px;
+    margin: 0 0 16px;
   }
 }
